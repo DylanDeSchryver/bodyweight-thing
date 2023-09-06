@@ -1,0 +1,15 @@
+check = 0
+while check == 0:
+  GENDER = input("Please enter your gender (F or M): ")
+  if GENDER == "F" or GENDER  == "G":
+    check = 1
+  else:
+    print("Please enter a valid response.")
+
+
+Men = ["Chest","Abdomen","Thigh","Age","Waist Circumference",]
+
+
+body_weight = float(input("Please enter "))
+
+male_body_density = 1.0990750 - (0.0008209 * x2) + (0.0000026 * (x2 ** 2)) - 0.0002017
